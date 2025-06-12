@@ -1,0 +1,41 @@
+{
+    "description": "Betaflight VTX Config file",
+    "version": "1.0",
+    "vtx_table": {
+        "bands_list": [
+            {
+                "name": "BAND-X  ",
+                "letter": "X",
+                "is_factory_band": false,
+                "frequencies": [
+                    4990,
+                    5020,
+                    5050,
+                    5080,
+                    5110,
+                    5140,
+                    5170,
+                    5200
+                ]
+            }
+        ],
+        "powerlevels_list": [
+            {
+                "value": 25,
+                "label": "PA1"
+            },
+            {
+                "value": 500,
+                "label": "PA2"
+            },
+            {
+                "value": 1000,
+                "label": "PA3"
+            },
+            {
+                "value": 2500,
+                "label": "PA4"
+            }
+        ]
+    }
+}
